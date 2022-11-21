@@ -25,8 +25,8 @@ URL | filename | username | password"""
 1. 🔊 Send url (example.domain/File.mp4 | New Filename.mp4).
 2. 🔊 Send Image As Custom Thumbnail (Optional).
 3. Select the button.
-   Ss+Video - Give File as video with Screenshots
-   Ss+File  - Give File (video) as file with Screenshots
+   SVideo - Give File as video with Screenshots
+   SFile  - Give File (video) as file with Screenshots
    Video  - Give File as video without Screenshots
    File   - Give File without Screenshots
 

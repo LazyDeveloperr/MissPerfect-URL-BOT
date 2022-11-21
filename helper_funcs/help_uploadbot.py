@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# (c) Shrimadhav U K
 
 # the logging things
 import logging
@@ -14,6 +15,7 @@ def DetectFileSize(url):
     r = requests.get(url, allow_redirects=True, stream=True)
     total_size = int(r.headers.get("content-length", 0))
     return total_size
+
 
 def DownLoadFile(url, file_name, chunk_size, client, ud_type, message_id, chat_id):
     if os.path.exists(file_name):
