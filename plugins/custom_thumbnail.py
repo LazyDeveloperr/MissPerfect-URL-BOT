@@ -76,7 +76,6 @@ async def Gthumb02(bot, update, duration, download_directory):
     return thumbnail
 
 async def Mdata01(download_directory):
-
           width = 0
           height = 0
           duration = 0

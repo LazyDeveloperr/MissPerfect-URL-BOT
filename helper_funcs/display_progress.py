@@ -57,8 +57,6 @@ async def progress_for_pyrogram(
             )
         except:
             pass
-
-
 def humanbytes(size):
     # https://stackoverflow.com/a/49361727/4723940
     # 2**10 = 1024

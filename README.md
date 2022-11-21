@@ -1,4 +1,5 @@
 <img src="https://telegra.ph/file/59530b4e467baea6240eb.png" alt="logo" target="/blank">
+
 <h1 align="center">
  <b><a href="https://telegram.me/LazyDeveloper" target="/blank"> Gangster Baby ( Renamer BOT ) </a></>
 </h1>
@@ -59,6 +60,7 @@
 </p>
 </details>
 
+
 ### 🔗 important_Links
 - [🤩 Create Auto Filter BOT](https://www.youtube.com/watch?v=jw3e4L1u-Vo&t=22s)
 - [🤩 Create Movie Website](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
@@ -73,11 +75,12 @@
 
 
 **Features**:
-- 👉 Upload [yt-dlp Supported Links](https://ytdl-org.github.io/youtube-dl/supportedsites.html) to Telegram.
-- 🧡 Upload HTTP/HTTPS as File/Video to Telegram.
-- 🧡 Upload zee5, sony.live, voot and much more.
-- 🧡 Permanent thumbnail Support.
-- 🧡 Broadcast message.
+👉 Upload [yt-dlp Supported Links](https://ytdl-org.github.io/youtube-dl/supportedsites.html) to Telegram.
+
+🧡 Upload HTTP/HTTPS as File/Video to Telegram.
+🧡 Upload zee5, sony.live, voot and much more.
+🧡 Permanent thumbnail Support.
+🧡 Broadcast message.
 
 ## Credits, and Thanks to
 * [@LazyDeveloper](https://telegram.me/mRiderDM) LazyDeveloper
