@@ -1,7 +1,7 @@
 <img src="https://telegra.ph/file/59530b4e467baea6240eb.png" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/LazyDeveloper" target="/blank"> Gangster Baby ( Renamer BOT ) </a></>
+ <b><a href="https://telegram.me/LazyDeveloper" target="/blank">MissPerfect-URL-BOT</a></>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>
@@ -43,7 +43,7 @@
 
   ### 📶 DEPLOYEMENT SUPPORT
 
-<details><button>🔥 Deploy To Koyeb 🔥</button>
+<details><summary>🔥 Deploy To Koyeb 🔥</summary>
 <p>
 <br>                 
 <a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/MissPerfect-URL-BOT&branch=main&name=LazyMissPerfectGOT" >
@@ -51,7 +51,7 @@
 </a>
 </p>
 </details>
-<details><summary>Deploy To Heroku</summary>
+<details><summary>🧡Deploy To Heroku🧡</summary>
 <p>
 <br>
 <a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/MissPerfect-URL-BOT">
