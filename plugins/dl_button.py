@@ -252,6 +252,7 @@ File Size: {}""".format(url, humanbytes(total_length))
 File Size: {}
 Downloaded: {}
 ETA: {}""".format(
+   url,
    humanbytes(total_length),
    humanbytes(downloaded),
    TimeFormatter(estimated_total_time)
