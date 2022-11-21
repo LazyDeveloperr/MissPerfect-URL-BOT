@@ -15,30 +15,6 @@ def DetectFileSize(url):
     total_size = int(r.headers.get("content-length", 0))
     return total_size
 
-def get_filename_from_url(url):
-    
-    import urlparse
-    parsed_url = urlparse.urlparse(url)
-    try:
-        file_name = parsed_url.path
-    except:
-        # Si falla es porque la implementación de parsed_url no reconoce los atributos como "path"
-        if len(parsed_url)>=4:
-            file_name = parsed_url[2]
-        else:
-            file_name = ""
-
-    if len(file_name)>0:
-
-        # Remove trailing slash
-        if file_name[-1:]=="/":
-            file_name = file_name[:-1]
-        
-        if "/" in file_name:
-            file_name = file_name.split("/")[-1]
-
-    return file_name
-
 def DownLoadFile(url, file_name, chunk_size, client, ud_type, message_id, chat_id):
     if os.path.exists(file_name):
         os.remove(file_name)
