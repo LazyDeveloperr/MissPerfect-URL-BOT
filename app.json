@@ -1,0 +1,55 @@
+{
+   "name": "MissPerfect-URL-BOT",
+   "description": "An Advance Telegram Bot to Upload URLs to Telegram as File and Video with Custom and permanent thumbnail.",
+   "keywords": [
+      "MissPerfect-URL-BOT"
+   ],
+   "success_url": "https://t.me/LazyMissPerfect_URL_BOT",
+   "website": "https://github.com/LazyDeveloperr",
+   "repository": "https://github.com/LazyDeveloperr/MissPerfect-URL-BOT",
+   "env": {
+      "WEBHOOK": {
+         "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+         "value": "ANYTHING"
+      },
+      "BOT_TOKEN": {
+         "description": "Your bot token, as a string.",
+         "value": ""
+      },
+      "API_ID": {
+         "description": "Get this value from https://my.telegram.org",
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get this value from https://my.telegram.org",
+         "value": ""
+      },
+      "OWNER_ID": {
+         "description": "Your Telegram ID",
+         "value": ""
+      },
+      "PREMIUM_USER": {
+         "description": "If you are a telegram premium user then set this True",
+         "value": "False"
+      },
+      "DATABASE_URL": {
+         "description": "Your MongoDB URI",
+         "value": ""
+      }
+   },
+   "addons": [],
+   "buildpacks": [
+      {
+         "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+         "url": "heroku/python"
+      }
+   ],
+   "formation": {
+      "worker": {
+         "quantity": 1,
+         "size": "free"
+      }
+   }
+}
