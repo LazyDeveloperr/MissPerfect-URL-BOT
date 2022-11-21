@@ -43,7 +43,7 @@
 
   ### 📶 DEPLOYEMENT SUPPORT
 
-<details><button>🔥 Deploy To Koyeb 🔥</button>
+<details><summary>🔥 Deploy To Koyeb 🔥</summary>
 <p>
 <br>                 
 <a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/MissPerfect-URL-BOT&branch=main&name=LazyMissPerfectGOT" >
