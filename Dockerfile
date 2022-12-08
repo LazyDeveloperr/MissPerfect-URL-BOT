@@ -19,4 +19,4 @@ WORKDIR /MissPerfectURL
 COPY start.sh /start.sh
 
 # Running MessageSearchBot
-CMD ["/bin/bash", "/start.sh"]
+CMD ["python", "bot.py"]
